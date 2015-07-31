@@ -14,6 +14,7 @@
 		BD5760B41B68ED9900EFDAA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5760B31B68ED9900EFDAA6 /* Images.xcassets */; };
 		BD5760B71B68ED9900EFDAA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5760B51B68ED9900EFDAA6 /* LaunchScreen.xib */; };
 		BD5760C31B68ED9900EFDAA6 /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5760C21B68ED9900EFDAA6 /* FunFactsTests.m */; };
+		BDD481481B69673300F91C49 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = BDD481471B69673300F91C49 /* FactBook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BD5760BC1B68ED9900EFDAA6 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5760C11B68ED9900EFDAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5760C21B68ED9900EFDAA6 /* FunFactsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsTests.m; sourceTree = "<group>"; };
+		BDD481461B69673300F91C49 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		BDD481471B69673300F91C49 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BD5760AB1B68ED9900EFDAA6 /* AppDelegate.m */,
 				BD5760AD1B68ED9900EFDAA6 /* ViewController.h */,
 				BD5760AE1B68ED9900EFDAA6 /* ViewController.m */,
+				BDD481461B69673300F91C49 /* FactBook.h */,
+				BDD481471B69673300F91C49 /* FactBook.m */,
 				BD5760B01B68ED9900EFDAA6 /* Main.storyboard */,
 				BD5760B31B68ED9900EFDAA6 /* Images.xcassets */,
 				BD5760B51B68ED9900EFDAA6 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				BD5760AF1B68ED9900EFDAA6 /* ViewController.m in Sources */,
 				BD5760AC1B68ED9900EFDAA6 /* AppDelegate.m in Sources */,
+				BDD481481B69673300F91C49 /* FactBook.m in Sources */,
 				BD5760A91B68ED9900EFDAA6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				BD5760C81B68ED9900EFDAA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD5760C91B68ED9900EFDAA6 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				BD5760CB1B68ED9900EFDAA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
