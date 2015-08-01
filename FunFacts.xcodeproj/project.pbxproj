@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD095BDF1B6B8EA1003A9F88 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD095BDE1B6B8EA1003A9F88 /* ColorWheel.m */; };
 		BD5760A91B68ED9900EFDAA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5760A81B68ED9900EFDAA6 /* main.m */; };
 		BD5760AC1B68ED9900EFDAA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5760AB1B68ED9900EFDAA6 /* AppDelegate.m */; };
 		BD5760AF1B68ED9900EFDAA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD5760AE1B68ED9900EFDAA6 /* ViewController.m */; };
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD095BDD1B6B8EA1003A9F88 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		BD095BDE1B6B8EA1003A9F88 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
+		BD095BE11B6B97EF003A9F88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BD5760A31B68ED9900EFDAA6 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5760A71B68ED9900EFDAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5760A81B68ED9900EFDAA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				BD5760B31B68ED9900EFDAA6 /* Images.xcassets */,
 				BD5760B51B68ED9900EFDAA6 /* LaunchScreen.xib */,
 				BD5760A61B68ED9900EFDAA6 /* Supporting Files */,
+				BD095BDD1B6B8EA1003A9F88 /* ColorWheel.h */,
+				BD095BDE1B6B8EA1003A9F88 /* ColorWheel.m */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -228,6 +234,7 @@
 				BD5760AC1B68ED9900EFDAA6 /* AppDelegate.m in Sources */,
 				BDD481481B69673300F91C49 /* FactBook.m in Sources */,
 				BD5760A91B68ED9900EFDAA6 /* main.m in Sources */,
+				BD095BDF1B6B8EA1003A9F88 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +261,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				BD5760B11B68ED9900EFDAA6 /* Base */,
+				BD095BE11B6B97EF003A9F88 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

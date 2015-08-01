@@ -32,5 +32,14 @@
     return self;
 }
 
+- (NSString *) randomFact
+{
+    int random = arc4random_uniform((int)self.facts.count);
+    NSString * randomString = [self.facts objectAtIndex:random];
+    
+    return randomString;
+    
+}
+
 
 @end
